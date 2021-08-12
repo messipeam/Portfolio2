@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+body{
+    background-color: #022D36;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1140;
+    margin: 0 auto;
+}
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 450px;
+   
+    margin: 50px;
+}
+nav ul li{
+    margin-right: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.header-intro{
+    margin-left: 50px;
+    width: 1000px;
+    padding: 50px;
+    line-height: 20px;
+}
+
+.header-hi p{
+    color: white;
+    font-size: 24px;
+}
+.header-title h1{
+    color: white;
+    font-size: 64px;
+}
+.subheader-tile p{
+    color: white;
+    font-size: 24px;
+}
+.header-content p{
+    color: white;
+    font-weight: lighter;
+   
+}
+.button-start{
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #A2C244;
+    text-align: center;
+    padding: 0.5px;
+    width: 100px;
+    border-radius: 10px;
+}
+.button-start p{
+    color: white;
+    
+}
+
+.image-me{
+   
+    
+}
+.image-me img{
+  border-radius: 50%;  
+  width: auto;
+  height: 400px;
+  
+}
+
+.welcome{
+    margin-top: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
